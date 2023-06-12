@@ -8,9 +8,9 @@ For review purpose, we release a part of our Microlens dataset temporarily.
 
 We upload a MicroLens-TOY folder, which contains 100 videos sampled randomly from MicroLens. The folder contains covers, audio files, video content as well as the textual caption of all 100 videos.
 
-We also upload a MicroLens-100K folder, which contains the interaction pair MicroLens-100K_pairs.tsv (each row indicates a user as well as the videos s/he interacted, sorted by the interaction timestamp), the audio files, the textual captions, and the corresponding cover files of all videos in MicroLens-100K (we add watermark for each image temporarily).
+We also upload a MicroLens-100K folder, which contains the interaction pair MicroLens-100K_pairs.tsv (each row indicates a user as well as the videos s/he interacted, sorted by the interaction timestamp), the audio files, the textual captions, and the corresponding cover files of all videos in MicroLens-100K (we add watermark for each image temporarily). Please note that the video content for MicroLens-100K is not provided at this time.
 
-For all modal data and interaction pairs of MicroLen-100K, MicroLen-1M and MicroLen, we will release them once accepted.
+For different types of modal data and the interaction pairs of MicroLen-100K, MicroLen-1M and MicroLen, we will release all of them once accepted.
 
 # Code
 
