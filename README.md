@@ -34,8 +34,8 @@ transformers==4.23.1
 
 # Baseline Evaluation
 
-<div align=center><img src="https://github.com/microlens2023/microlens-dataset/Results/baseline_evaluation.png"/></div>
+<div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/main/Results/baseline_evaluation.png"/></div>
 
 # Video Understanding Meets Recommender Systems
 
-<div align=center><img src="https://github.com/microlens2023/microlens-dataset/Results/video_meets_rs.png"/></div>
+<div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/main/Results/video_meets_rs.png"/></div>
