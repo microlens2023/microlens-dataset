@@ -4,7 +4,9 @@
 
 Download link: https://recsys.westlake.edu.cn/MicroLens-Dataset/
 
-Dataset downloader: https://github.com/microlens2023/microlens-dataset/blob/master/Downloader/microlens_downloader.exe (Linux version will be provided upon acceptance)
+Dataset downloader (for Windows): https://github.com/microlens2023/microlens-dataset/blob/master/Downloader/microlens_downloader.exe
+
+Dataset downloader (for Linux): https://github.com/microlens2023/microlens-dataset/blob/master/Downloader/microlens_downloader
 
 For review purposes, we are temporarily releasing a portion of our Microlens dataset.
 
