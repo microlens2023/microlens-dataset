@@ -8,6 +8,8 @@ Dataset downloader (for Windows): https://github.com/microlens2023/microlens-dat
 
 Dataset downloader (for Linux): https://github.com/microlens2023/microlens-dataset/blob/master/Downloader/microlens_downloader
 
+Dataset downloader (for Mac): https://github.com/microlens2023/microlens-dataset/blob/master/Downloader/microlens_downloader_mac
+
 For review purposes, we are temporarily releasing a portion of our Microlens dataset.
 
 We have uploaded a MicroLens-TOY folder, which contains 100 randomly sampled videos from the Microlens dataset. The folder includes cover images, audio files, video content, and textual captions for all 100 videos.
