@@ -30,6 +30,10 @@ Before running the training script, please make sure to modify the dataset path,
 
 Note that you will need to prepare an LMDB file and specify it in the scripts before running image-based or video-based VideoRec. To assist with this, we have provided a Python script for LMDB generation. Please refer to 'Data Generation/generate_cover_frames_lmdb.py' for more details.
 
+## Special instructions on IDRec
+
+In IDRec, see `IDRec\process_data.ipynb` to process the interaction data.  Execute the following Python scripts: 'main.py'  under each folder to run the corresponding baselines. The data path, model parameters can be modified by changing the `yaml` file under each folder. 
+
 ## Environments
 ```
 python==3.8.12
