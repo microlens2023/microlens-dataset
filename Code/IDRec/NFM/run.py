@@ -25,10 +25,6 @@ def run_loop(local_rank,config_file=None,saved=True):
     device = torch.device("cuda", local_rank)
     config['device'] = device
     
-    config['epochs'] = 1
-    config['stopping_step'] = 1
-
-
     init_seed(config['seed'], config['reproducibility'])
   
     init_logger(config)
