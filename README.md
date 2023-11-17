@@ -1,7 +1,5 @@
 # A Content-Driven Micro-Video Recommendation Dataset at Scale
 
-## Invited Talk by Google DeepMind [(Slides)](https://github.com/microlens2023/microlens-dataset/blob/master/Invited_Talk_By_DeepMind.pdf)
-
 # Dataset
 
 Dataset downloader (for Windows): https://github.com/microlens2023/microlens-dataset/blob/master/Downloader/microlens_downloader.exe
