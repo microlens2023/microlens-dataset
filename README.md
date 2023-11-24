@@ -10,7 +10,9 @@ For review purposes, we are temporarily releasing a portion of our Microlens dat
 
 Through the download tools, you can download 500 randomly sampled videos from the Microlens dataset, including cover images, video content, and textual captions for all 100 videos.
 
-Additionally, we also provide two interaction files for MicroLens-100k. In "MicroLens-100k_pairs.tsv", each row corresponds to a user ID, and the subsequent columns represent the video IDs that the user interacted with in chronological order. We use the "\t" delimiter to separate the user ID from the first video ID, and a single space to separate different video IDs within the same row. In "MicroLens-100k_pairs.csv", the three columns are "userID", "videoID" and "timestamp".
+Additionally, we also provide two interaction files for MicroLens-100k: 
+- In "MicroLens-100k_pairs.tsv", each row corresponds to a user ID, and the subsequent columns represent the video IDs that the user interacted with in chronological order. We use the "\t" delimiter to separate the user ID from the first video ID, and a single space to separate different video IDs within the same row.
+- In "MicroLens-100k_pairs.csv", the three columns are "userID", "videoID" and "timestamp".
 
 For various types of modal data and the interaction pairs of MicroLens-100K and MicroLens, we will release all of them once the paper is accepted.
 
