@@ -8,7 +8,7 @@ Dataset downloader (for Linux): https://github.com/microlens2023/microlens-datas
 
 For review purposes, we are temporarily releasing a portion of our Microlens dataset.
 
-Through the download tools, you can download 500 randomly sampled videos from the Microlens dataset, including cover images, video content, and textual captions for all 100 videos.
+Through the download tools, you can download 500 randomly sampled videos from the Microlens dataset, including cover images, full-length videos (with audios), and textual captions (including tags) for all 100 videos.
 
 Additionally, we also provide the interaction file for MicroLens-100k (namely "MicroLens-100k_pairs.csv"), in which the three columns are "userID", "videoID" and "timestamp".
 
