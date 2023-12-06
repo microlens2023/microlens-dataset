@@ -1,5 +1,7 @@
 # A Content-Driven Micro-Video Recommendation Dataset at Scale
 
+# We are upgrading the downloaders for better service now (it may need several hours) ...
+
 # Dataset
 
 Dataset downloader (for Windows): https://github.com/microlens2023/microlens-dataset/blob/master/Downloader/microlens_downloader.exe
