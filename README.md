@@ -1,8 +1,8 @@
 # A Content-Driven Micro-Video Recommendation Dataset at Scale
 
-# Note (2024.01.09 updated)
+# Note (2024.01.11 updated)
 
-Due to the server issue, the video support service will be recovered on 2024.01.11.
+Due to the server issue, the video support service will be recovered on 2024.01.12.
 
 # Dataset
 
