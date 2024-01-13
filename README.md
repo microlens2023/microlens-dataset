@@ -1,9 +1,5 @@
 # A Content-Driven Micro-Video Recommendation Dataset at Scale
 
-# Note (2024.01.11 updated)
-
-Due to the server issue, the video support service will be recovered on 2024.01.12.
-
 # Dataset
 
 Dataset downloader (for Windows): https://github.com/microlens2023/microlens-dataset/blob/master/Downloader/microlens_downloader.exe
