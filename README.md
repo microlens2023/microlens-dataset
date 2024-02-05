@@ -49,3 +49,14 @@ In the micro-video application, users are typically presented with a continuous 
 
 **Figure 1: An illustration of the recommendation scenario in MicroLens. Videos a, b, and c are displayed in landscape format, while videos d, e, and f are displayed in portrait format. Please note that the format of the next video is random and can be either landscape or portrait. The English translation is provided for all video titles**
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/recommendation-scenario.png"/></div>
+
+## Related Datasets
+
+**Figure 2: Dataset comparison. "p-Image" refers to pre-extracted visual features from pre-trained visual encoders (such as ResNet), while "r-Image" refers to images with raw image pixels. "Audio" and "Video" refer to the original full-length audio and video content. Note that MicroLens is the first recommendation dataset that contains raw micro-video data.**
+<div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/dataset-comparison.png"/></div>
+
+## Video Model Details in Video Understanding and Recommendation
+
+**Table 1: Performance of VideoRec with 15 video encoders. "Pretrain Settings" are the adopted frame length and sample rate from the pre-trained checkpoint. ACC@5 is the accuracy of the video classification task.**
+
+<div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/video-details.png"/></div>
