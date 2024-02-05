@@ -39,10 +39,13 @@ torchvision==0.9.0
 transformers==4.23.1
 ```
 
-# Baseline Evaluation
+# More Results on MicroLens
 
-<div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/main/Results/baseline_evaluation.png"/></div>
+## Recommendation Scenario of Collected Platform
 
-# Video Understanding Meets Recommender Systems
+Figure 1 below illustrates the recommendation scenario of the micro-video platform from which our MicroLens collected data. In this example, a user is recommended a video about trucks. After watching a short segment, the user swipes up to the next video. All these videos allow user engagement through buttons for liking, sharing, and commenting, which are visible on the right side of the videos. On this platform, there are multiple ways to define positive and negative examples. For instance, the duration of video views, presence of likes, comments, or shares can all be considered as different levels of user feedback.  However, among these behaviors, only comment behaviors are public without any access restrictions. Also,  note that the videos and comments are publicly accessible both on the mobile app and the web. In the mobile app, users navigate to the next video by swiping gestures, while on the web, users use mouse scrolling to move to the next video. The web scene is displayed in the same way as the mobile app scene.
 
-<div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/main/Results/video_meets_rs.png"/></div>
+In the micro-video application, users are typically presented with a continuous stream of videos. The recommendation process continues uninterrupted through the user swiping up or mouse scrolling, ensuring a seamless flow of video recommendations.
+
+**Figure 1: An illustration of the recommendation scenario in MicroLens. Videos a, b, and c are displayed in landscape format, while videos d, e, and f are displayed in portrait format. Please note that the format of the next video is random and can be either landscape or portrait.The English translation is provided for all video titles**
+<div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/main/Results/recommendation-scenario.png"/></div>
