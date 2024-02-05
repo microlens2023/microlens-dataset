@@ -48,4 +48,4 @@ Figure 1 below illustrates the recommendation scenario of the micro-video platfo
 In the micro-video application, users are typically presented with a continuous stream of videos. The recommendation process continues uninterrupted through the user swiping up or mouse scrolling, ensuring a seamless flow of video recommendations.
 
 **Figure 1: An illustration of the recommendation scenario in MicroLens. Videos a, b, and c are displayed in landscape format, while videos d, e, and f are displayed in portrait format. Please note that the format of the next video is random and can be either landscape or portrait. The English translation is provided for all video titles**
-<div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/main/Results/recommendation-scenario.png"/></div>
+<div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/recommendation-scenario.png"/></div>
