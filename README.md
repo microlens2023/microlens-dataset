@@ -39,7 +39,7 @@ torchvision==0.9.0
 transformers==4.23.1
 ```
 
-# More Results on MicroLens
+# Additional Materials and Results
 
 ## Related Datasets
 
