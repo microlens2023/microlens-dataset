@@ -72,7 +72,7 @@ We found that incorporating item popularity level and tag categories as side fea
 **Table 5: Recommendation results with side features on MicroLens-100K.**
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/side-features.png"/></div>
 
-## Baseline Evaluation and Warm-up Recommendation on MicroLens-1M
+## Baseline Evaluation and Warm Item Recommendation on MicroLens-1M
 
 **Table 6: Benchmark results on MicroLens-1M.**
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/benchmark-1m.png"/></div>
