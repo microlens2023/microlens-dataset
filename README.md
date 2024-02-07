@@ -94,7 +94,7 @@ We used [BERT](https://huggingface.co/prajjwal1/bert-small) as the text encoder 
 
 ## Dataset Analysis of MicroLens-1M
 
-**Figure 1: : The statistical information of MIcroLens-1M, i.e., item popularity, user activity and video duration**
+**Figure 1: The statistical information of MIcroLens-1M, i.e., item popularity, user activity and video duration**
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/1m-sts.png"/></div>
 
 ## Recommendation Scenario of Collected Platform
