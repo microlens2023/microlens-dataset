@@ -1,4 +1,4 @@
-# A Content-Driven Micro-Video Recommendation Dataset at Scale
+# A Large-Scale Dataset for Content-Based Short-Video Recommendation
 
 # Dataset
 
