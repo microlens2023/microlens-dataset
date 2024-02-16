@@ -107,4 +107,6 @@ In the micro-video application, users are typically presented with a continuous 
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/recommendation-scenario.png"/></div>
 
 ## Permission for MicroLens Dataset
+
+To ensure anonymous peer review, we have masked the author and affiliation information.
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/dataset-permission-mosaic.png"/></div>
