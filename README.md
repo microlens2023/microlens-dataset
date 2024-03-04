@@ -86,7 +86,7 @@ The results from Table 2 showcase that VideoRec significantly outperforms IDRec 
 ## Recommendation in Cold-start Scenarios
 
 **Figure 1: Results in different cold-start scenarios, with the y-axis representing the relative improvement of HR@10, calculated as the ratio of VideoRec to IDRec. The x-axis represents item groups divided by popularity level, the larger number indicates that items in the group are more popular.**
-<div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/cold-start.png"/></div>
+<div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/cold-start.png" width="80%"/></div>
 
 The results presented in Figure 1 demonstrate a significant disparity between VideoRec and IDRec in cold-start scenarios. IDRec relies on interactions between users and items to learn their representations, while VideoRec can model items based on the content of videos themselves. This enables VideoRec to provide more pronounced recommendation results even in situations with minimal interactions compared to IDRec. Moreover, as the cold-start problem becomes more severe, the advantage of VideoRec over IDRec becomes increasingly amplified. For instance, as the popularity becomes smaller, the relative improvement of VideoRec to IDRec is larger, especially when the popularity varies from 2 to 1.
 
