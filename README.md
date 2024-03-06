@@ -71,6 +71,7 @@ We have taken strict measures to address all potential ethical issues.
 
 **Consent to Collect Data.** What we collected are publicly available user comments and videos, and we have implemented a series of protective measures on the collected data. Furthermore, we take action to ensure that our dataset is used solely for research purposes. Generally, obtaining consent is not necessary for building such recommendation datasets, which is accepted practice in previous academic literature. However, even in light of this, we have taken comprehensive considerations and obtained permission from the Institutional Ethics Review Committee.
 
+<!--
 ## Recommendation with Only Cover Images
 
 **Table 1: Recommendation accuracy using cover images to represent videos, with three SOTA image encoders, i.e., ResNet, Swin Transformer and MAE.**
@@ -82,6 +83,7 @@ We have taken strict measures to address all potential ethical issues.
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/warm-item.png"/></div>
 
 The results from Table 2 showcase that VideoRec significantly outperforms IDRec in both regular and warm-up scenarios. Even in the warm-up (200) setting, the difference between the two methods remains pronounced. It is a surprising finding since IDRec is known for its ability to model popular items, and the experiments conducted in earlier work suggest that IDRec should have a slight advantage over modality-based methods in warmer settings. However, it is important to note that the modality content used in that work are covers or titles, instead of video media. The comparison verifies that compared to images or text, video content indeed provides richer item representation information and thus amplifies the advantages of modality-based methods, highlighting the merits of MicroLens. 
+-->
 
 ## Recommendation in Cold-start Scenarios
 
@@ -92,53 +94,53 @@ The results presented in Figure 1 demonstrate a significant disparity between Vi
 
 ## Related Datasets
 
-**Table 3: Dataset comparison. "p-Image" refers to pre-extracted visual features from pre-trained visual encoders (such as ResNet), while "r-Image" refers to images with raw image pixels. "Audio" and "Video" refer to the original full-length audio and video content. Note that MicroLens is the first recommendation dataset that contains raw micro-video data.**
+**Table 1: Dataset comparison. "p-Image" refers to pre-extracted visual features from pre-trained visual encoders (such as ResNet), while "r-Image" refers to images with raw image pixels. "Audio" and "Video" refer to the original full-length audio and video content. Note that MicroLens is the first recommendation dataset that contains raw micro-video data.**
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/dataset-comparison.png"/></div>
 
 ## Video Model Details in Video Understanding and Recommendation
 
-**Table 4: Performance of VideoRec with 15 video encoders. "Pretrain Settings" are the adopted frame length and sample rate from the pre-trained checkpoint. ACC@5 is the accuracy of the video classification task.**
+**Table 2: Performance of VideoRec with 15 video encoders. "Pretrain Settings" are the adopted frame length and sample rate from the pre-trained checkpoint. ACC@5 is the accuracy of the video classification task.**
 
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/video-details.png"/></div>
 
 ## Hyper-parameter Settings for Baselines
 
-**Table 5: Hyper-parameters settings for baselines. The "finetuning rate" denotes the learning rate applied to the video encoder during the finetuning process.**
+**Table 3: Hyper-parameters settings for baselines. The "finetuning rate" denotes the learning rate applied to the video encoder during the finetuning process.**
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/baseline-settings.png"/></div>
 
 ## Details of the Applied Image Encoders
 
-**Table 6: Network architecture, parameter size, and download URL of the vision encoders for image baselines. L: number of Transformer blocks, H: number of multi-head attention, C: channel number of the hidden layers in the first stage, B: number of layers in each block.**
+**Table 4: Network architecture, parameter size, and download URL of the vision encoders for image baselines. L: number of Transformer blocks, H: number of multi-head attention, C: channel number of the hidden layers in the first stage, B: number of layers in each block.**
 
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/image-details.png"/></div>
 
 ## Recommendation with Side Features
 
-We investigate the impact of other features on recommendation performance using the MicroLens-100K dataset. We introduce two types of side features: item popularity level (Pop) and tag categories (Tag). For popularity features, we divide the item popularity into 10 uniform bins. The first bin represents the top 10% of popular items, while the last bin represents the bottom 10%. We assign a Pop ID to each item according to its popularity level. Regarding the tag features, we also handle them as categorical features with a category of 15,580. We conducted experiments on SASRec_{ID} (ID) with different feature combinations: SASRec_ID, SASRec_{ID+Pop}, SASRec_{ID+Tag}, and SASRec_{ID+Pop+Tag}. The "+" symbol denotes feature combinations achieved by summing and averaging them. We report the results in Table 7.
+We investigate the impact of other features on recommendation performance using the MicroLens-100K dataset. We introduce two types of side features: item popularity level (Pop) and tag categories (Tag). For popularity features, we divide the item popularity into 10 uniform bins. The first bin represents the top 10% of popular items, while the last bin represents the bottom 10%. We assign a Pop ID to each item according to its popularity level. Regarding the tag features, we also handle them as categorical features with a category of 15,580. We conducted experiments on SASRec_{ID} (ID) with different feature combinations: SASRec_ID, SASRec_{ID+Pop}, SASRec_{ID+Tag}, and SASRec_{ID+Pop+Tag}. The "+" symbol denotes feature combinations achieved by summing and averaging them. We report the results in Table 5.
 
 We found that incorporating item popularity level and tag categories as side features did not clearly improve the algorithm's performance. One possible reason is that in typical recommendation scenarios, item ID embeddings have already been extensively trained, implicitly learning latent factors including similarity and popularity. For instance, we observed that many videos recommended in the top-10 recommendation list share similar categories and have relatively high popularity, indicating that ID-based methods can already capture popularity and category information. In such scenarios, incorporating many unimportant features  may have a negative impact on overall performance. It is worth noting that in the very cold-start setting, the item ID feature is very weak and adding other features is necessary for better performance.
 
-**Table 7: Recommendation results with side features on MicroLens-100K.**
+**Table 5: Recommendation results with side features on MicroLens-100K.**
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/side-features.png"/></div>
 
 ## Baseline Evaluation and Warm Item Recommendation on MicroLens-1M
 
-**Table 8: Benchmark results on MicroLens-1M.**
+**Table 6: Benchmark results on MicroLens-1M.**
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/benchmark-1m.png"/></div>
 
-**Table 9: Comparison of VideoRec and IDRec in regular and warm-start settings using SASRec as the user backbone. Warm-20 denotes that items with less than 20 interactions were removed from the original MicroLens-1M.**
+**Table 7: Comparison of VideoRec and IDRec in regular and warm-start settings using SASRec as the user backbone. Warm-20 denotes that items with less than 20 interactions were removed from the original MicroLens-1M.**
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/warm-1m.png"/></div>
 
 ## Comparison between Textual Features and Video Content
 
-We used [BERT](https://huggingface.co/prajjwal1/bert-small) as the text encoder and SlowFast16x8-r101 as the video encoder and perform end-to-end training. We fixed the learning rate of recommender model as 1e-4, and searched for the optimal learning rates for the text encoder and video encoder from {1e-3, 1e-4}. The comparison results are reported in Table 10. Our results demonstrate that using only text features yields similar performance to the itemID feature. By analyzing the data, we have observed that some short videos have only a few words in their descriptions, which may contribute to the performance not being particularly competitive. On the other hand, the amount of information contained in the original videos far exceeds that of the video titles. Therefore, we believe that in the future, utilizing more powerful video understanding techniques can lead to better recommendation results.
+We used [BERT](https://huggingface.co/prajjwal1/bert-small) as the text encoder and SlowFast16x8-r101 as the video encoder and perform end-to-end training. We fixed the learning rate of recommender model as 1e-4, and searched for the optimal learning rates for the text encoder and video encoder from {1e-3, 1e-4}. The comparison results are reported in Table 8. Our results demonstrate that using only text features yields similar performance to the itemID feature. By analyzing the data, we have observed that some short videos have only a few words in their descriptions, which may contribute to the performance not being particularly competitive. On the other hand, the amount of information contained in the original videos far exceeds that of the video titles. Therefore, we believe that in the future, utilizing more powerful video understanding techniques can lead to better recommendation results.
 
-**Table 10: Comparison results of ID, textual features and video content on MicroLens-100K.**
+**Table 8: Comparison results of ID, textual features and video content on MicroLens-100K.**
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/text-video.png"/></div>
 
 ## Computation Cost
 
-**Table 11. The computation cost information for IDRec and VideoRec on the MicroLens-100K dataset, where SASRec is taken as the recommender backbone and top1-block fine-tuning strategy used in this paper is applied for VideoRec. #Param: the size of tunable parameters, FLOPs: computational complexity, Time/E: averaged training time for one epoch, BE: the best epoch in terms of optimal validation results, MU: GPU memory usage, and the GPU configuration used, e.g., ’A40-48G(4)’ denotes that we used 4 A40s with 48G memory. Note that although VideoRec by E2E learning is more expensive than IDRec, it also shows improved performance. The main finding is that there is still much room for improvement in recommendation models by properly leveraging video features. We believe that more effective and efficient VideoRec models, even beyond the VideoRec paradigm, can be developed in the future inspired by MicroLens.**
+**Table 9. The computation cost information for IDRec and VideoRec on the MicroLens-100K dataset, where SASRec is taken as the recommender backbone and top1-block fine-tuning strategy used in this paper is applied for VideoRec. #Param: the size of tunable parameters, FLOPs: computational complexity, Time/E: averaged training time for one epoch, BE: the best epoch in terms of optimal validation results, MU: GPU memory usage, and the GPU configuration used, e.g., ’A40-48G(4)’ denotes that we used 4 A40s with 48G memory. Note that although VideoRec by E2E learning is more expensive than IDRec, it also shows improved performance. The main finding is that there is still much room for improvement in recommendation models by properly leveraging video features. We believe that more effective and efficient VideoRec models, even beyond the VideoRec paradigm, can be developed in the future inspired by MicroLens.**
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/computation-cost.png"/></div>
 
 ## Dataset Analysis of MicroLens-1M
