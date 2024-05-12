@@ -143,6 +143,16 @@ We used [BERT](https://huggingface.co/prajjwal1/bert-small) as the text encoder 
 **Table 9. The computation cost information for IDRec and VideoRec on the MicroLens-100K dataset, where SASRec is taken as the recommender backbone and top1-block fine-tuning strategy used in this paper is applied for VideoRec. #Param: the size of tunable parameters, FLOPs: computational complexity, Time/E: averaged training time for one epoch, BE: the best epoch in terms of optimal validation results, MU: GPU memory usage, and the GPU configuration used, e.g., ’A40-48G(4)’ denotes that we used 4 A40s with 48G memory. Note that although VideoRec by E2E learning is more expensive than IDRec, it also shows improved performance. The main finding is that there is still much room for improvement in recommendation models by properly leveraging video features. We believe that more effective and efficient VideoRec models, even beyond the VideoRec paradigm, can be developed in the future inspired by MicroLens.**
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/computation-cost.png"/></div>
 
+## Multi-Modal Recommendation
+
+**Table 10. **
+<div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/multimodal-recommendation.png"/></div>
+
+## Transfer Learning
+
+**Table 11. Transferable video recommendation utilizing three types of video encoders. The source datasets comprise MicroLens-100K and MicroLens-1M, while the target dataset is Bili-20K. "PT" stands for pre-trained, indicating that the model has been initially trained on the source dataset and subsequently finetuned on the target dataset.**
+<div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/transfer-learning.png"/></div>
+
 ## Dataset Analysis of MicroLens-1M
 
 **Figure 2: The statistical information of MIcroLens-1M, i.e., item popularity, user activity and video duration**
