@@ -145,7 +145,7 @@ We used [BERT](https://huggingface.co/prajjwal1/bert-small) as the text encoder 
 
 ## Multi-Modal Recommendation
 
-**Table 10. **
+**Table 10. Recommendation performance of multimodal methods with video features. "V" indicates video features, "MM" indicates multimodal features with video features included.**
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/multimodal-recommendation.png"/></div>
 
 ## Transfer Learning
