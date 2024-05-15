@@ -149,8 +149,11 @@ We used [BERT](https://huggingface.co/prajjwal1/bert-small) as the text encoder 
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/multimodal-recommendation.png"/></div>
 
 [1] Zhou, Xin, and Zhiqi Shen. "A tale of two graphs: Freezing and denoising graph structures for multimodal recommendation." Proceedings of the 31st ACM International Conference on Multimedia. 2023.
+
 [2] Yu, Penghang, et al. "Multi-view graph convolutional network for multimedia recommendation." Proceedings of the 31st ACM International Conference on Multimedia. 2023.
+
 [3] Wei, Yinwei, et al. "MMGCN: Multi-modal graph convolution network for personalized recommendation of micro-video." Proceedings of the 27th ACM international conference on multimedia. 2019.
+
 [4] Wei, Yinwei, et al. "Graph-refined convolutional network for multimedia recommendation with implicit feedback." Proceedings of the 28th ACM international conference on multimedia. 2020.
 
 ## Transfer Learning
