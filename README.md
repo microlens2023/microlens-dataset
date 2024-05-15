@@ -148,6 +148,11 @@ We used [BERT](https://huggingface.co/prajjwal1/bert-small) as the text encoder 
 **Table 10. Recommendation performance of multimodal methods with video features. "V" indicates video features, "MM" indicates multimodal features with video features included.**
 <div align=center><img src="https://github.com/microlens2023/microlens-dataset/blob/master/Results/multimodal-recommendation.png"/></div>
 
+[1] Zhou, Xin, and Zhiqi Shen. "A tale of two graphs: Freezing and denoising graph structures for multimodal recommendation." Proceedings of the 31st ACM International Conference on Multimedia. 2023.
+[2] Yu, Penghang, et al. "Multi-view graph convolutional network for multimedia recommendation." Proceedings of the 31st ACM International Conference on Multimedia. 2023.
+[3] Wei, Yinwei, et al. "MMGCN: Multi-modal graph convolution network for personalized recommendation of micro-video." Proceedings of the 27th ACM international conference on multimedia. 2019.
+[4] Wei, Yinwei, et al. "Graph-refined convolutional network for multimedia recommendation with implicit feedback." Proceedings of the 28th ACM international conference on multimedia. 2020.
+
 ## Transfer Learning
 
 **Table 11. Transferable video recommendation utilizing three types of video encoders. The source datasets comprise MicroLens-100K and MicroLens-1M, while the target dataset is Bili-20K. "PT" stands for pre-trained, indicating that the model has been initially trained on the source dataset and subsequently finetuned on the target dataset.**
